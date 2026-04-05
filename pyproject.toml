@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rag-clinico"
+version = "0.1.0"
+description = "RAG comparativo para guías clínicas ESC - TFM MUIA UNIR"
+requires-python = ">=3.10"
+dependencies = [
+    # RAG framework
+    "langchain>=0.3",
+    "langchain-community>=0.3",
+    "langchain-text-splitters>=0.3",
+    # Vector store
+    "chromadb>=0.5",
+    # Embeddings
+    "sentence-transformers>=3.0",
+    # LLM (Ollama)
+    "langchain-ollama>=0.2",
+    # PDF processing
+    "pymupdf>=1.24",
+    # Evaluation metrics
+    "rouge-score>=0.1",
+    "bert-score>=0.3",
+    # Data handling
+    "pandas>=2.0",
+    "pyyaml>=6.0",
+    # Experiment tracking
+    "tqdm>=4.60",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "jupyter>=1.0",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "scipy>=1.12",
+    "ipykernel>=6.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/rag_clinico"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
