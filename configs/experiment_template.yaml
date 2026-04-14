@@ -1,0 +1,33 @@
+# Configuración de experimento RAG Clínico
+# Copiar este archivo y modificar para cada configuración
+
+experiment:
+  name: "C1_fixed_512"        # Nombre descriptivo
+  phase: 1                     # 1 = chunking, 2 = embedding
+  description: "Chunking de tamaño fijo, 512 tokens, overlap 50"
+
+chunking:
+  strategy: "fixed"            # fixed | recursive | semantic
+  chunk_size: 512
+  chunk_overlap: 50
+  # Solo para semantic:
+  # breakpoint_threshold: 0.3
+
+embedding:
+  model: "all-MiniLM-L6-v2"   # all-MiniLM-L6-v2 | bge-base-en-v1.5 | PubMedBERT | BioLORD-2023
+
+retrieval:
+  k: 4                        # Número de fragmentos a recuperar
+
+generation:
+  model: "gemma4"
+  temperature: 0.0
+  ollama_url: "http://localhost:11434"
+
+evaluation:
+  qa_dataset: "data/qa_dataset/qa_pairs.json"
+  metrics:
+    - rouge1
+    - rougeL
+    - bertscore
+  manual_sample_size: 30       # Muestra para evaluación manual
