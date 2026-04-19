@@ -1,0 +1,1221 @@
+{
+  "metadata": {
+    "description": "Dataset de evaluación para RAG clínico - TFM MUIA UNIR",
+    "version": "1.0",
+    "total_questions": 150,
+    "distribution": {
+      "factual": 90,
+      "explanatory": 38,
+      "comparative": 22
+    },
+    "guidelines": [
+      "ESC ACS 2023",
+      "ESC Atrial Fibrillation 2024",
+      "ESC Chronic Coronary Syndromes 2024",
+      "ESC Heart Failure 2023",
+      "ESC Hypertension 2024"
+    ]
+  },
+  "questions": [
+    {
+      "id": "F001",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What are the two main categories of acute coronary syndromes according to the 2023 ESC guidelines?",
+      "answer": "The two main categories are ST-elevation myocardial infarction (STEMI) and non-ST-elevation acute coronary syndrome (NSTE-ACS), which includes non-ST-elevation myocardial infarction (NSTEMI) and unstable angina.",
+      "section": "Section 3"
+    },
+    {
+      "id": "F002",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the recommended time from STEMI diagnosis to primary PCI wire crossing?",
+      "answer": "The recommended time from STEMI diagnosis to primary PCI wire crossing is 120 minutes or less. For patients presenting directly to a PCI-capable centre, the target is 60 minutes from arrival.",
+      "section": "Section 5.2.1"
+    },
+    {
+      "id": "F003",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the role of high-sensitivity cardiac troponin in the diagnosis of NSTEMI?",
+      "answer": "High-sensitivity cardiac troponin (hs-cTn) is the biomarker of choice for the diagnosis of NSTEMI. The 0h/1h or 0h/2h rapid rule-out and rule-in algorithms use serial hs-cTn measurements to categorize patients into rule-out, observe, or rule-in pathways.",
+      "section": "Section 4.2"
+    },
+    {
+      "id": "F004",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the recommended dual antiplatelet therapy after PCI for ACS?",
+      "answer": "The recommended dual antiplatelet therapy (DAPT) consists of aspirin plus a P2Y12 receptor inhibitor. Prasugrel or ticagrelor are preferred over clopidogrel for patients undergoing PCI for ACS. The default DAPT duration is 12 months.",
+      "section": "Section 6"
+    },
+    {
+      "id": "F005",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What lipid target does the ESC recommend for patients after an acute coronary syndrome?",
+      "answer": "The ESC recommends an LDL-cholesterol target of less than 1.4 mmol/L (55 mg/dL) and a reduction of at least 50% from baseline for patients after an acute coronary syndrome.",
+      "section": "Section 13.1"
+    },
+    {
+      "id": "F006",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "When is fibrinolytic therapy indicated in STEMI management?",
+      "answer": "Fibrinolytic therapy is indicated when primary PCI cannot be performed within 120 minutes of STEMI diagnosis. It should be administered within 12 hours of symptom onset, ideally within 10 minutes of STEMI diagnosis.",
+      "section": "Section 5.2.1"
+    },
+    {
+      "id": "F007",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the recommended anticoagulant for patients with ACS undergoing PCI?",
+      "answer": "Unfractionated heparin (UFH) is the recommended anticoagulant during PCI for ACS. Enoxaparin is an alternative for NSTE-ACS patients managed with an early invasive strategy. Fondaparinux is recommended for NSTE-ACS patients managed conservatively.",
+      "section": "Section 6.2"
+    },
+    {
+      "id": "F008",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the recommended maximum weekly alcohol consumption for secondary prevention after ACS?",
+      "answer": "The ESC recommends restricting alcohol consumption to a maximum of 100 grams per week, with the same limit for men and women.",
+      "section": "Section 13.2.2"
+    },
+    {
+      "id": "F009",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What beta-blockers are recommended after myocardial infarction?",
+      "answer": "Beta-blockers with proven outcome benefit after MI include bisoprolol, carvedilol, and metoprolol succinate. They are recommended in patients with reduced left ventricular systolic function (LVEF ≤40%).",
+      "section": "Section 12"
+    },
+    {
+      "id": "F010",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the definition of type 1 myocardial infarction?",
+      "answer": "Type 1 myocardial infarction is caused by acute atherothrombotic coronary artery disease, usually triggered by atherosclerotic plaque disruption (rupture or erosion), leading to intraluminal thrombus formation and reduced myocardial blood flow.",
+      "section": "Section 3.1"
+    },
+    {
+      "id": "F011",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What antithrombotic strategy is recommended for ACS patients who also require oral anticoagulation?",
+      "answer": "For ACS patients requiring oral anticoagulation (e.g., for atrial fibrillation), triple antithrombotic therapy (OAC plus aspirin plus clopidogrel) should be limited to the periprocedural period (up to 1 week), followed by dual antithrombotic therapy with OAC plus a single antiplatelet agent (preferably clopidogrel) for up to 12 months.",
+      "section": "Section 6.5"
+    },
+    {
+      "id": "F012",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What imaging modality is recommended for risk stratification before discharge after ACS?",
+      "answer": "Echocardiography is recommended for all ACS patients to assess left ventricular ejection fraction (LVEF) and regional wall motion abnormalities before discharge.",
+      "section": "Section 11"
+    },
+    {
+      "id": "F013",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the GRACE risk score used for in ACS management?",
+      "answer": "The GRACE (Global Registry of Acute Coronary Events) risk score is used for estimating in-hospital and 6-month mortality risk in patients with ACS. It helps guide the timing of invasive strategy in NSTE-ACS patients.",
+      "section": "Section 4"
+    },
+    {
+      "id": "F014",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the recommended blood pressure target for patients after ACS?",
+      "answer": "A systolic blood pressure target of less than 130 mmHg (but not below 120 mmHg) is recommended for most ACS patients as part of secondary prevention.",
+      "section": "Section 13"
+    },
+    {
+      "id": "F015",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What are the Class I recommendations for pain management in ACS?",
+      "answer": "Intravenous opioids (e.g., morphine) are recommended for pain relief in ACS when non-opioid analgesics are insufficient. Oxygen therapy is indicated only when SpO2 is below 90%.",
+      "section": "Section 4.2.2"
+    },
+    {
+      "id": "F016",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What are the indications for coronary artery bypass graft surgery in ACS?",
+      "answer": "CABG is indicated in ACS patients with left main disease, three-vessel disease (especially with diabetes or reduced LVEF), or when PCI is not technically feasible. The decision should be made by a multidisciplinary Heart Team.",
+      "section": "Section 5.3"
+    },
+    {
+      "id": "F017",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the recommended duration of dual antiplatelet therapy after ACS in patients at high bleeding risk?",
+      "answer": "In patients at high bleeding risk, shortening DAPT duration to 1-3 months followed by P2Y12 inhibitor monotherapy may be considered. The Academic Research Consortium for High Bleeding Risk (ARC-HBR) criteria are used to identify these patients.",
+      "section": "Section 6.4"
+    },
+    {
+      "id": "F018",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the recommended statin therapy after ACS?",
+      "answer": "High-intensity statin therapy should be initiated as early as possible (during hospitalization) in all ACS patients without contraindications, regardless of baseline cholesterol levels. If the LDL-C target is not achieved, adding ezetimibe and/or a PCSK9 inhibitor is recommended.",
+      "section": "Section 13.1"
+    },
+    {
+      "id": "F019",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What is the AF-CARE framework introduced in the 2024 ESC guidelines?",
+      "answer": "AF-CARE is a structured management framework: C = Comorbidity and risk factor management, A = Avoid stroke and thromboembolism, R = Reduce symptoms by rate and rhythm control, E = Evaluation and dynamic reassessment.",
+      "section": "Section 4.2"
+    },
+    {
+      "id": "F020",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What classification system is used for atrial fibrillation based on temporal pattern?",
+      "answer": "AF is classified as: first-diagnosed (first detected episode), paroxysmal (self-terminating, usually within 48 hours but may last up to 7 days), persistent (sustained beyond 7 days or requiring cardioversion), long-standing persistent (continuous AF lasting more than 12 months when rhythm control strategy is adopted), and permanent (accepted by patient and physician, no rhythm control pursued).",
+      "section": "Section 3.1"
+    },
+    {
+      "id": "F021",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What is the CHA2DS2-VA score and what does it assess?",
+      "answer": "CHA2DS2-VA is a stroke risk assessment tool for AF patients: Congestive heart failure (1 point), Hypertension (1 point), Age ≥75 years (2 points), Diabetes (1 point), Stroke/TIA/thromboembolism (2 points), Vascular disease (1 point), Age 65-74 (1 point). It replaces the older CHA2DS2-VASc score by removing the sex category.",
+      "section": "Section 6"
+    },
+    {
+      "id": "F022",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What are the first-line rate control drugs for AF?",
+      "answer": "First-line rate control drugs depend on LVEF. For patients with LVEF >40%: beta-blockers, diltiazem, or verapamil. For patients with LVEF ≤40%: beta-blockers or digoxin. Target resting heart rate is generally <110 bpm initially (lenient rate control).",
+      "section": "Section 8"
+    },
+    {
+      "id": "F023",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What are the recommended direct oral anticoagulants for stroke prevention in AF?",
+      "answer": "DOACs (apixaban, dabigatran, edoxaban, rivaroxaban) are recommended over vitamin K antagonists for stroke prevention in AF patients eligible for anticoagulation. DOACs are preferred due to a more favorable risk-benefit profile.",
+      "section": "Section 6"
+    },
+    {
+      "id": "F024",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What is the recommended anticoagulation protocol before elective cardioversion of AF?",
+      "answer": "Therapeutic anticoagulation for at least 3 weeks before elective cardioversion is recommended (Class I). Alternatively, transoesophageal echocardiography (TOE) can be performed to exclude left atrial thrombus before cardioversion if 3 weeks of anticoagulation has not been achieved.",
+      "section": "Section 8.4"
+    },
+    {
+      "id": "F025",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "When is catheter ablation recommended as first-line rhythm control for AF?",
+      "answer": "Catheter ablation is recommended as first-line rhythm control therapy in patients with paroxysmal AF who prefer this approach, and should be considered in patients with persistent AF. It is also recommended in patients with heart failure with reduced ejection fraction (HFrEF) where AF is likely contributing to cardiac dysfunction.",
+      "section": "Section 8.5"
+    },
+    {
+      "id": "F026",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What comorbidities should be systematically managed in AF patients according to AF-CARE?",
+      "answer": "The C component of AF-CARE includes management of: hypertension, obesity, diabetes mellitus, obstructive sleep apnoea, heart failure, valvular heart disease, physical inactivity, alcohol consumption, and other modifiable risk factors.",
+      "section": "Section 5"
+    },
+    {
+      "id": "F027",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What antiarrhythmic drugs are recommended for maintenance of sinus rhythm in AF?",
+      "answer": "The choice depends on the underlying condition: flecainide and propafenone for patients without structural heart disease; dronedarone for patients with hypertension, HFpEF, or coronary artery disease; amiodarone for patients with HFrEF or when other drugs fail. Sotalol may be considered with careful monitoring.",
+      "section": "Section 8.5"
+    },
+    {
+      "id": "F028",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What is the definition of atrial fibrillation according to the 2024 ESC guidelines?",
+      "answer": "Atrial fibrillation is defined as a supraventricular tachyarrhythmia with uncoordinated atrial electrical activation. On an ECG or intracardiac recording, it is characterized by irregular R-R intervals and absence of distinct repeating P waves.",
+      "section": "Section 3.1"
+    },
+    {
+      "id": "F029",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What screening strategy for AF detection is recommended in individuals aged ≥65?",
+      "answer": "Opportunistic screening for AF using pulse palpation or ECG rhythm strip is recommended during medical visits in individuals aged ≥65 years (Class I). Systematic screening with intermittent ECG recordings over at least 2 weeks may be considered for individuals aged ≥75 years or those at high stroke risk.",
+      "section": "Section 10"
+    },
+    {
+      "id": "F030",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "How should anticoagulation be managed after cardioversion of AF?",
+      "answer": "Short-term anticoagulation for at least 4 weeks after cardioversion is recommended for all patients, even if CHA2DS2-VA score is 0. Long-term anticoagulation should be continued based on thromboembolic risk assessment.",
+      "section": "Section 8.4"
+    },
+    {
+      "id": "F031",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What is the Risk Factor-weighted Clinical Likelihood model for diagnosing obstructive CAD?",
+      "answer": "The RF-CL model combines a chest pain symptom score (0-3 points based on characteristics, aggravation by exertion, and relief by rest/nitrates) with age and the number of cardiovascular risk factors (family history, smoking, dyslipidaemia, hypertension, diabetes) to estimate the clinical likelihood of obstructive CAD as very low, low, moderate, or high.",
+      "section": "Section 3.2.1"
+    },
+    {
+      "id": "F032",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What non-invasive imaging tests are recommended for diagnosing obstructive CAD?",
+      "answer": "Coronary CT angiography (CCTA), stress echocardiography, cardiac MRI stress perfusion, SPECT, and PET are recommended. The choice depends on clinical likelihood, local expertise, and patient characteristics. CCTA is preferred for patients with low-to-moderate clinical likelihood.",
+      "section": "Section 3.2"
+    },
+    {
+      "id": "F033",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What is the role of exercise ECG testing in the 2024 CCS guidelines?",
+      "answer": "Exercise ECG testing alone is no longer recommended as the initial diagnostic test for obstructive CAD due to limited diagnostic accuracy. It may still be used to assess exercise capacity, symptoms, arrhythmias, and blood pressure response.",
+      "section": "Section 3.2.3"
+    },
+    {
+      "id": "F034",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What are the six clinical presentations of chronic coronary syndromes?",
+      "answer": "The six presentations are: (1) patients with suspected CAD and stable angina symptoms, (2) patients with new onset of heart failure or LV dysfunction suspected to be caused by CAD, (3) patients with stabilized symptoms within 12 months of ACS or with recent revascularization, (4) patients beyond 12 months after initial diagnosis or revascularization, (5) patients with angina and suspected vasospastic or microvascular disease, and (6) asymptomatic individuals in whom CAD is detected at screening.",
+      "section": "Section 2.2"
+    },
+    {
+      "id": "F035",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What is the first-line anti-anginal treatment recommended for CCS?",
+      "answer": "Beta-blockers and/or calcium channel blockers are recommended as first-line anti-anginal therapy. Short-acting nitrates (sublingual or spray) are recommended for immediate relief of angina symptoms.",
+      "section": "Section 4.1"
+    },
+    {
+      "id": "F036",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "When is coronary revascularization recommended in CCS patients?",
+      "answer": "Revascularization is recommended for patients with significant coronary stenosis (>50% left main or >70% in other major vessels) who have limiting symptoms despite optimal medical therapy, or for prognostic benefit in patients with left main disease, proximal LAD stenosis, or multi-vessel disease with reduced LVEF.",
+      "section": "Section 4.2"
+    },
+    {
+      "id": "F037",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What is the role of FFR/iFR in the management of CCS?",
+      "answer": "Fractional flow reserve (FFR) or instantaneous wave-free ratio (iFR) measurement is recommended to assess the haemodynamic significance of coronary stenoses before revascularization when non-invasive evidence of ischaemia is not available. An FFR ≤0.80 or iFR ≤0.89 indicates haemodynamically significant stenosis.",
+      "section": "Section 4.2"
+    },
+    {
+      "id": "F038",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What antiplatelet strategy is recommended for secondary prevention in CCS?",
+      "answer": "Low-dose aspirin (75-100 mg daily) is the standard antiplatelet therapy for secondary prevention in CCS. In patients intolerant to aspirin, clopidogrel 75 mg daily is recommended as an alternative.",
+      "section": "Section 4.3"
+    },
+    {
+      "id": "F039",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What is ANOCA-INOCA and how should it be evaluated?",
+      "answer": "ANOCA (Angina with Non-Obstructive Coronary Arteries) and INOCA (Ischaemia with Non-Obstructive Coronary Arteries) refer to patients with angina or ischaemia without obstructive epicardial coronary disease. Evaluation includes invasive coronary function testing with acetylcholine and adenosine to diagnose vasospastic angina, microvascular angina, or both.",
+      "section": "Section 3.3"
+    },
+    {
+      "id": "F040",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What percentage of asymptomatic adults may have subclinical coronary atherosclerosis?",
+      "answer": "According to the Swedish Cardiopulmonary Bioimage Study, atherosclerotic plaque was present in 42% of individuals without known CAD. In the PESA study, 63% of asymptomatic middle-aged participants had subclinical atherosclerosis.",
+      "section": "Section 5.4"
+    },
+    {
+      "id": "F041",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "How is heart failure classified based on left ventricular ejection fraction?",
+      "answer": "Heart failure is classified as: HFrEF (LVEF ≤40%), HFmrEF (LVEF 41-49%), and HFpEF (LVEF ≥50%).",
+      "section": "Table 3"
+    },
+    {
+      "id": "F042",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "What are the updated recommendations for SGLT2 inhibitors in the 2023 heart failure focused update?",
+      "answer": "SGLT2 inhibitors (dapagliflozin and empagliflozin) are now recommended for patients with HFmrEF and HFpEF (Class I, Level A), in addition to the existing Class I recommendation for HFrEF. This was the major change from the 2021 guidelines.",
+      "section": "Recommendation Table 1-2"
+    },
+    {
+      "id": "F043",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "What is the updated recommendation for GLP-1 receptor agonists in heart failure patients?",
+      "answer": "GLP-1 receptor agonists (semaglutide, liraglutide, dulaglutide) are recommended for patients with type 2 diabetes and heart failure to reduce cardiovascular events and improve HF-related outcomes (Class I recommendation in the 2023 update).",
+      "section": "Recommendation Table 3"
+    },
+    {
+      "id": "F044",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "What is the recommendation for intravenous iron therapy in heart failure?",
+      "answer": "Intravenous ferric carboxymaltose or ferric derisomaltose is recommended for symptomatic patients with HFrEF and HFmrEF who have iron deficiency (defined as ferritin <100 ng/mL, or ferritin 100-299 ng/mL with transferrin saturation <20%) to improve symptoms and quality of life.",
+      "section": "Recommendation Table 5"
+    },
+    {
+      "id": "F045",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "What diuretic combinations are recommended for acute decompensated heart failure with congestion?",
+      "answer": "Loop diuretics (furosemide) remain first-line. The addition of acetazolamide to loop diuretics may be considered to enhance decongestion. Combination with thiazide-type diuretics (sequential nephron blockade) may be considered in patients with diuretic resistance.",
+      "section": "Section 4"
+    },
+    {
+      "id": "F046",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "What SGLT2 inhibitors have evidence for use in heart failure?",
+      "answer": "Dapagliflozin (DAPA-HF trial) and empagliflozin (EMPEROR trials) have shown benefit in reducing HF hospitalizations and cardiovascular death across the full spectrum of LVEF (HFrEF, HFmrEF, and HFpEF).",
+      "section": "Section 3"
+    },
+    {
+      "id": "F047",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "What are the four pillars of pharmacological treatment for HFrEF?",
+      "answer": "The four pillars are: (1) ACE inhibitors or ARNIs (sacubitril/valsartan), (2) beta-blockers (bisoprolol, carvedilol, metoprolol succinate, nebivolol), (3) mineralocorticoid receptor antagonists (spironolactone, eplerenone), and (4) SGLT2 inhibitors (dapagliflozin, empagliflozin). All four should be initiated as early as possible.",
+      "section": "Section 3"
+    },
+    {
+      "id": "F048",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "What is the recommendation for finerenone in heart failure patients with type 2 diabetes?",
+      "answer": "Finerenone (a non-steroidal MRA) is recommended to reduce HF hospitalization risk in patients with type 2 diabetes and chronic kidney disease. This was a new addition in the 2023 focused update.",
+      "section": "Recommendation Table 4"
+    },
+    {
+      "id": "F049",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What is the new blood pressure categorization in the 2024 ESC hypertension guidelines?",
+      "answer": "The 2024 guidelines introduce three categories: (1) non-elevated BP (office BP <120/70 mmHg), (2) elevated BP (120-139/70-89 mmHg), and (3) hypertension (≥140/90 mmHg). This replaces the previous classification with normal, high-normal, and grade 1-3 hypertension.",
+      "section": "Section 5"
+    },
+    {
+      "id": "F050",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What are the four main drug classes recommended for first-line antihypertensive treatment?",
+      "answer": "The four main classes are: ACE inhibitors (e.g., ramipril, enalapril), angiotensin receptor blockers (e.g., valsartan, candesartan), calcium channel blockers (e.g., amlodipine, felodipine), and thiazide/thiazide-like diuretics (e.g., chlorthalidone, indapamide).",
+      "section": "Section 8"
+    },
+    {
+      "id": "F051",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What is the recommended target blood pressure for most hypertensive patients?",
+      "answer": "The recommended target is systolic BP of 120-129 mmHg for most patients aged 18-79 years. For patients aged ≥80 years, the target is <140 mmHg systolic. These targets assume the patient tolerates the treatment.",
+      "section": "Section 8"
+    },
+    {
+      "id": "F052",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What initial pharmacological strategy is recommended for hypertension?",
+      "answer": "Initial treatment with a single-pill combination (SPC) of two drugs at low doses is recommended for most patients with hypertension, rather than monotherapy. The preferred combinations are an ACE inhibitor or ARB with a calcium channel blocker, or an ACE inhibitor or ARB with a thiazide diuretic.",
+      "section": "Section 8"
+    },
+    {
+      "id": "F053",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What methods of blood pressure measurement are recommended for diagnosis?",
+      "answer": "Out-of-office blood pressure measurement (ambulatory blood pressure monitoring [ABPM] or home blood pressure monitoring [HBPM]) is recommended to confirm the diagnosis of hypertension. ABPM is considered the gold standard. Office BP alone is insufficient for diagnosis due to white-coat and masked hypertension.",
+      "section": "Section 7"
+    },
+    {
+      "id": "F054",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What defines resistant hypertension?",
+      "answer": "Resistant hypertension is defined as office BP ≥140/90 mmHg despite treatment with optimal or maximally tolerated doses of three antihypertensive drugs including a diuretic (typically an ACE inhibitor or ARB, a calcium channel blocker, and a thiazide diuretic), confirmed by out-of-office BP measurement, after excluding non-adherence.",
+      "section": "Section 9"
+    },
+    {
+      "id": "F055",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What is recommended for resistant hypertension treatment?",
+      "answer": "For resistant hypertension, spironolactone (25-50 mg daily) is the recommended fourth-line drug. If spironolactone is not tolerated, bisoprolol, doxazosin, or amiloride may be considered as alternatives.",
+      "section": "Section 9"
+    },
+    {
+      "id": "F056",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What role does the SCORE2 risk estimation system play in hypertension management?",
+      "answer": "SCORE2 (and SCORE2-OP for older patients) is used to estimate 10-year cardiovascular risk in patients with elevated blood pressure. It guides treatment decisions in patients with elevated BP (120-139/70-89 mmHg) by determining whether drug treatment is recommended based on cardiovascular risk level.",
+      "section": "Section 6"
+    },
+    {
+      "id": "F057",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What lifestyle modifications are recommended for blood pressure reduction?",
+      "answer": "Recommended modifications include: sodium restriction (<2g/day), increased potassium intake, DASH-style diet, weight loss (BMI 20-25 kg/m²), regular aerobic exercise (≥150 min/week moderate or ≥75 min/week vigorous), moderation of alcohol (<100g/week), and smoking cessation.",
+      "section": "Section 8.1"
+    },
+    {
+      "id": "F058",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What are the secondary causes of hypertension that should be screened for?",
+      "answer": "Secondary causes include: primary aldosteronism (most common), renal artery stenosis, renal parenchymal disease, pheochromocytoma/paraganglioma, Cushing syndrome, thyroid disorders, aortic coarctation, and drug-induced hypertension (NSAIDs, oral contraceptives, corticosteroids).",
+      "section": "Section 7.4"
+    },
+    {
+      "id": "F059",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What is the recommendation for combining ACE inhibitors with ARBs?",
+      "answer": "The combination of an ACE inhibitor with an ARB (dual RAAS blockade) is not recommended due to an increased risk of adverse events including hyperkalaemia, hypotension, and renal impairment, without additional cardiovascular benefit.",
+      "section": "Section 8"
+    },
+    {
+      "id": "F060",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "How should hypertension be managed during pregnancy?",
+      "answer": "In pregnancy, methyldopa, labetalol, and nifedipine are the preferred antihypertensive agents. ACE inhibitors, ARBs, and direct renin inhibitors are contraindicated due to teratogenic effects. Severe hypertension (≥160/110 mmHg) requires urgent treatment.",
+      "section": "Section 10"
+    },
+    {
+      "id": "F061",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What second-line anti-anginal drugs may be added if symptoms persist?",
+      "answer": "Second-line options include: long-acting nitrates (isosorbide mononitrate), nicorandil, ivabradine (if heart rate >70 bpm in sinus rhythm), ranolazine, and trimetazidine. The choice depends on heart rate, blood pressure, and contraindications.",
+      "section": "Section 4.1"
+    },
+    {
+      "id": "F062",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What is the recommended LDL-cholesterol target for patients with CCS?",
+      "answer": "For patients with documented CCS (very high cardiovascular risk), the LDL-C target is <1.4 mmol/L (55 mg/dL) and at least a 50% reduction from baseline. For recurrent cardiovascular events within 2 years, an even lower target of <1.0 mmol/L (40 mg/dL) may be considered.",
+      "section": "Section 4.4"
+    },
+    {
+      "id": "F063",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What is the role of left atrial appendage occlusion in stroke prevention for AF?",
+      "answer": "Left atrial appendage occlusion (LAAO) may be considered for stroke prevention in AF patients with contraindications to long-term oral anticoagulation. It is not recommended as a routine alternative to anticoagulation in patients who can tolerate OAC.",
+      "section": "Section 6.5"
+    },
+    {
+      "id": "F064",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What is the recommended approach for hypertension in patients with chronic kidney disease?",
+      "answer": "ACE inhibitors or ARBs are preferred first-line agents in hypertensive patients with CKD, especially when albuminuria is present. The target BP is <130/80 mmHg. Combination therapy is usually required, and diuretic choice should be adapted to eGFR level (loop diuretics when eGFR <30 mL/min).",
+      "section": "Section 10"
+    },
+    {
+      "id": "F065",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the recommended approach for multivessel disease in STEMI patients?",
+      "answer": "In haemodynamically stable STEMI patients with multivessel disease, complete revascularization of non-culprit lesions is recommended, either during the index procedure or during the index hospitalization, guided by angiographic severity or FFR/iFR assessment.",
+      "section": "Section 5.2.1"
+    },
+    {
+      "id": "F066",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What genetic testing for antiplatelet response is mentioned in the 2024 CCS guidelines?",
+      "answer": "Routine CYP2C19 genotyping or platelet function testing is not recommended for CCS patients on clopidogrel. However, in patients undergoing high-risk PCI who are known carriers of a CYP2C19 loss-of-function allele, switching from clopidogrel to ticagrelor or prasugrel is a reasonable option.",
+      "section": "Section 4.3.1"
+    },
+    {
+      "id": "F067",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What is the recommended approach for rate control in acute AF with haemodynamic instability?",
+      "answer": "In haemodynamically unstable patients with AF, emergency electrical cardioversion is recommended (Class I). Rate control should not delay cardioversion in unstable patients.",
+      "section": "Section 8.1"
+    },
+    {
+      "id": "F068",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What is the prevalence of hypertension globally according to the 2024 ESC guidelines?",
+      "answer": "Hypertension affects approximately 1.3 billion adults worldwide and is the leading modifiable risk factor for cardiovascular disease, stroke, and premature death globally.",
+      "section": "Section 2"
+    },
+    {
+      "id": "F069",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the definition of myocardial infarction with non-obstructive coronary arteries (MINOCA)?",
+      "answer": "MINOCA is defined as a clinical diagnosis of acute myocardial infarction with angiographically non-obstructive coronary arteries (stenosis <50% in any potential infarct-related artery). It requires further investigation to identify the underlying mechanism (plaque disruption, coronary spasm, spontaneous coronary dissection, thromboembolism).",
+      "section": "Section 9"
+    },
+    {
+      "id": "F070",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "What is the role of cardiac resynchronization therapy in heart failure?",
+      "answer": "CRT is recommended for symptomatic HFrEF patients (LVEF ≤35%) in sinus rhythm with QRS duration ≥150 ms and left bundle branch block (LBBB) morphology despite optimal medical therapy, to reduce morbidity and mortality.",
+      "section": "2021 ESC HF Guidelines referenced"
+    },
+    {
+      "id": "F071",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What is the SYNTAX score and its role in revascularization decisions?",
+      "answer": "The SYNTAX score is an angiographic scoring system that grades the complexity of coronary artery disease. Higher scores indicate more complex disease. For patients with three-vessel or left main disease, SYNTAX score helps determine whether PCI or CABG is more appropriate (CABG preferred for higher SYNTAX scores).",
+      "section": "Section 4.2"
+    },
+    {
+      "id": "F072",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What device-based therapies are mentioned for resistant hypertension?",
+      "answer": "Renal denervation is mentioned as a potential treatment option for resistant hypertension but is not yet recommended as a routine procedure. It may be considered in specialized centres for selected patients after confirming true resistance, treatment adherence, and secondary hypertension exclusion.",
+      "section": "Section 9"
+    },
+    {
+      "id": "F073",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the recommended approach for NSTE-ACS patients at very high risk?",
+      "answer": "Very high-risk NSTE-ACS patients (haemodynamic instability, cardiogenic shock, recurrent or ongoing chest pain refractory to medical treatment, life-threatening arrhythmias, mechanical complications, acute heart failure, or recurrent dynamic ST-T wave changes) should undergo immediate invasive assessment (<2 hours).",
+      "section": "Section 5.1"
+    },
+    {
+      "id": "F074",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What is the recommended approach for managing AF patients during non-cardiac surgery?",
+      "answer": "Anticoagulation should generally be continued perioperatively for procedures with low bleeding risk. For procedures with high bleeding risk, temporary interruption of DOACs is recommended (typically 24-48 hours before the procedure, depending on the specific DOAC and renal function). Bridging with heparin is generally not recommended for patients on DOACs.",
+      "section": "Section 9"
+    },
+    {
+      "id": "F075",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What is the recommendation for colchicine in CCS?",
+      "answer": "Low-dose colchicine (0.5 mg daily) may be considered as an add-on therapy for secondary prevention in patients with CCS to reduce the risk of cardiovascular events, based on the anti-inflammatory effect on atherosclerosis (LoDoCo2 and COLCOT trials).",
+      "section": "Section 4.5"
+    },
+    {
+      "id": "F076",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What blood pressure threshold defines a hypertensive emergency?",
+      "answer": "A hypertensive emergency is defined by severely elevated blood pressure (usually ≥180/120 mmHg) accompanied by acute, potentially life-threatening end-organ damage (e.g., hypertensive encephalopathy, acute heart failure, acute coronary syndrome, aortic dissection, eclampsia).",
+      "section": "Section 11"
+    },
+    {
+      "id": "F077",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What is the recommended loading dose of aspirin in ACS?",
+      "answer": "A loading dose of 150-300 mg of aspirin (oral or intravenous) is recommended as soon as possible for all patients with suspected ACS, followed by a maintenance dose of 75-100 mg daily.",
+      "section": "Section 6.1"
+    },
+    {
+      "id": "F078",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What are the diagnostic criteria for clinical AF on ECG?",
+      "answer": "AF diagnosis requires an ECG or intracardiac recording showing: (1) irregularly irregular R-R intervals (when AV conduction is not impaired), and (2) no discernible repeating P waves. A minimum of 30 seconds of recording is recommended for the diagnosis.",
+      "section": "Section 3.2"
+    },
+    {
+      "id": "F079",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "What is the recommendation regarding sacubitril/valsartan in heart failure?",
+      "answer": "Sacubitril/valsartan (ARNI) is recommended as a replacement for ACE inhibitors in patients with HFrEF who remain symptomatic despite optimal treatment. It can also be initiated de novo (without prior ACE inhibitor). It reduces the risk of death and hospitalization compared to ACE inhibitors.",
+      "section": "2021 ESC HF Guidelines"
+    },
+    {
+      "id": "F080",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What is the recommendation regarding influenza vaccination in CCS patients?",
+      "answer": "Annual influenza vaccination is recommended for all patients with CCS to reduce the risk of cardiovascular events and mortality, particularly during influenza season (Class I recommendation).",
+      "section": "Section 4.5"
+    },
+    {
+      "id": "F081",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What is white-coat hypertension and how should it be managed?",
+      "answer": "White-coat hypertension is defined as elevated office BP (≥140/90 mmHg) with normal out-of-office BP. It affects 15-30% of patients with elevated office BP. Drug treatment is generally not recommended, but lifestyle modifications and regular BP monitoring are advised due to increased future risk of sustained hypertension.",
+      "section": "Section 7.2"
+    },
+    {
+      "id": "F082",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What are the electrocardiographic criteria for STEMI?",
+      "answer": "STEMI is diagnosed when there is new ST-segment elevation at the J point in at least two contiguous leads: ≥2.5 mm in men <40 years, ≥2 mm in men ≥40 years, or ≥1.5 mm in women in leads V2-V3, and/or ≥1 mm in all other leads. New LBBB with ischaemic symptoms should be treated similarly.",
+      "section": "Section 4.1"
+    },
+    {
+      "id": "F083",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What monitoring is recommended after AF catheter ablation?",
+      "answer": "Systematic monitoring after catheter ablation is recommended, including ECG, Holter monitoring, or extended rhythm monitoring at regular intervals (typically at 3, 6, and 12 months post-ablation) to detect AF recurrence. A blanking period of 3 months after ablation is established during which AF recurrence does not define procedural failure.",
+      "section": "Section 8.5"
+    },
+    {
+      "id": "F084",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What imaging modality has gained the strongest recommendation for initial diagnosis of CCS?",
+      "answer": "Coronary CT angiography (CCTA) has gained a Class I recommendation for the initial diagnostic test in patients with low-to-moderate clinical likelihood of obstructive CAD, particularly when coronary anatomy characterization is important. It has high negative predictive value to rule out obstructive CAD.",
+      "section": "Section 3.2"
+    },
+    {
+      "id": "F085",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What is the recommended sodium intake limit for hypertension management?",
+      "answer": "Dietary sodium should be restricted to less than 2 grams per day (equivalent to approximately 5 grams of salt per day). This is a fundamental lifestyle recommendation that can reduce systolic BP by approximately 5 mmHg.",
+      "section": "Section 8.1"
+    },
+    {
+      "id": "F086",
+      "type": "factual",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "What is the evidence for SGLT2 inhibitors in HFpEF?",
+      "answer": "The EMPEROR-Preserved (empagliflozin) and DELIVER (dapagliflozin) trials demonstrated that SGLT2 inhibitors reduce the composite of cardiovascular death and HF hospitalization in HFpEF patients, leading to the new Class I recommendation in the 2023 update.",
+      "section": "Section 3"
+    },
+    {
+      "id": "F087",
+      "type": "factual",
+      "guideline": "ESC ACS 2023",
+      "question": "What are the contraindications for prasugrel in ACS patients?",
+      "answer": "Prasugrel is contraindicated in patients with prior stroke or TIA. It is generally not recommended in patients ≥75 years of age or those weighing <60 kg due to increased bleeding risk, though a reduced dose of 5 mg may be considered.",
+      "section": "Section 6.1"
+    },
+    {
+      "id": "F088",
+      "type": "factual",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What is the pill-in-the-pocket approach for AF?",
+      "answer": "The pill-in-the-pocket approach involves self-administration of a single dose of flecainide (200-300 mg) or propafenone (450-600 mg) by the patient to terminate paroxysmal AF episodes outside the hospital. It should only be used in selected patients without structural heart disease after initial supervised testing in hospital.",
+      "section": "Section 8.3"
+    },
+    {
+      "id": "F089",
+      "type": "factual",
+      "guideline": "ESC Hypertension 2024",
+      "question": "What is masked hypertension?",
+      "answer": "Masked hypertension is defined as normal office BP (<140/90 mmHg) but elevated out-of-office BP (daytime ambulatory BP ≥135/85 mmHg or home BP ≥135/85 mmHg). It carries cardiovascular risk similar to sustained hypertension and should be treated with antihypertensive medication.",
+      "section": "Section 7.2"
+    },
+    {
+      "id": "F090",
+      "type": "factual",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "What is the role of coronary artery calcium scoring in CCS?",
+      "answer": "Coronary artery calcium (CAC) scoring by non-contrast CT is recommended to reclassify cardiovascular risk in asymptomatic individuals at borderline or moderate risk. A CAC score of 0 is associated with very low risk of events, while a high CAC score (>400) significantly increases cardiovascular risk classification.",
+      "section": "Section 5.4"
+    },
+    {
+      "id": "E001",
+      "type": "explanatory",
+      "guideline": "ESC ACS 2023",
+      "question": "Why are the 2023 ESC guidelines significant for combining STEMI and NSTE-ACS into a single document?",
+      "answer": "The 2023 ESC ACS guidelines combine previously separate guidelines for STEMI and NSTE-ACS into a unified document because ACS represents a continuum of the same underlying pathophysiology (acute atherothrombotic coronary disease). This unified approach reflects that many management principles overlap, simplifies clinical decision-making, and acknowledges that the distinction between STEMI and NSTEMI depends on the timing of the ECG relative to the evolving event.",
+      "section": "Section 1"
+    },
+    {
+      "id": "E002",
+      "type": "explanatory",
+      "guideline": "ESC ACS 2023",
+      "question": "Why is prasugrel preferred over ticagrelor for ACS patients undergoing PCI in the 2023 guidelines?",
+      "answer": "The 2023 guidelines give prasugrel a preferential recommendation over ticagrelor for ACS patients undergoing PCI based on the ISAR-REACT 5 trial, which showed that prasugrel was associated with a lower rate of the primary composite endpoint (death, MI, or stroke) compared with ticagrelor, with similar major bleeding rates. This represents a shift from the previous neutral recommendation between the two drugs.",
+      "section": "Section 6.1"
+    },
+    {
+      "id": "E003",
+      "type": "explanatory",
+      "guideline": "ESC ACS 2023",
+      "question": "Why is oxygen therapy only recommended when SpO2 is below 90% in ACS patients?",
+      "answer": "Routine supplemental oxygen is no longer recommended because randomized trials (AVOID, DETO2X-AMI) showed that oxygen administration in normoxaemic MI patients did not reduce infarct size or improve outcomes, and may even be harmful through coronary vasoconstriction and increased oxidative stress. Oxygen is reserved for hypoxaemic patients (SpO2 <90%) where the benefit clearly outweighs potential harm.",
+      "section": "Section 4.2.2.1"
+    },
+    {
+      "id": "E004",
+      "type": "explanatory",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "Why did the 2024 ESC guidelines replace CHA2DS2-VASc with CHA2DS2-VA?",
+      "answer": "The sex category (Sc) was removed from the stroke risk score because female sex is a risk modifier rather than an independent stroke risk factor. Including it as a separate point led to inconsistencies where low-risk women could be unnecessarily anticoagulated. CHA2DS2-VA applies the same thresholds equally to men and women, simplifying the decision-making process while maintaining predictive accuracy.",
+      "section": "Section 6"
+    },
+    {
+      "id": "E005",
+      "type": "explanatory",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "Why is the AF-CARE framework structured in the order C-A-R-E?",
+      "answer": "The order reflects clinical priority: Comorbidity management (C) comes first because untreated comorbidities like obesity, hypertension, and sleep apnoea are both causes and perpetuators of AF. Anticoagulation (A) for stroke prevention is the next priority because stroke is the most devastating consequence of AF. Rhythm/rate control (R) addresses symptoms. Evaluation (E) is ongoing reassessment. This order ensures that the most impactful interventions are not overlooked in favour of rhythm management alone.",
+      "section": "Section 4.2"
+    },
+    {
+      "id": "E006",
+      "type": "explanatory",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "Why are DOACs preferred over vitamin K antagonists for stroke prevention in AF?",
+      "answer": "DOACs are preferred because landmark trials (RE-LY, ROCKET-AF, ARISTOTLE, ENGAGE AF-TIMI 48) demonstrated that DOACs are at least as effective as warfarin for stroke prevention, with significantly lower rates of intracranial haemorrhage. DOACs also offer practical advantages: predictable pharmacokinetics, no routine monitoring requirement, fewer drug-food interactions, and fixed dosing.",
+      "section": "Section 6"
+    },
+    {
+      "id": "E007",
+      "type": "explanatory",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "Why was exercise ECG demoted from its role as a first-line diagnostic test?",
+      "answer": "Exercise ECG alone has limited diagnostic accuracy for obstructive CAD, with sensitivity around 50% and specificity around 70%. It produces frequent false positives (especially in women and patients with baseline ECG abnormalities) and false negatives. Modern imaging techniques (CCTA, stress echo, CMR, SPECT, PET) provide superior diagnostic accuracy and additional prognostic information about plaque burden and ischemic territory.",
+      "section": "Section 3.2.3"
+    },
+    {
+      "id": "E008",
+      "type": "explanatory",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "Why is the concept of chronic coronary syndromes replacing stable coronary artery disease?",
+      "answer": "The term 'chronic coronary syndromes' replaces 'stable coronary artery disease' because coronary atherosclerosis is inherently a dynamic and progressive process, not truly stable. Patients may move between different clinical presentations over time - from asymptomatic to angina, from CCS to ACS, and from post-ACS back to a chronic phase. The CCS framework emphasizes that ongoing active management is needed throughout the patient's life.",
+      "section": "Section 2"
+    },
+    {
+      "id": "E009",
+      "type": "explanatory",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "Why were SGLT2 inhibitors elevated to Class I recommendation for HFmrEF and HFpEF?",
+      "answer": "The EMPEROR-Preserved (empagliflozin) and DELIVER (dapagliflozin) trials, along with a pre-specified pooled analysis, demonstrated a consistent reduction in the composite of cardiovascular death and HF hospitalization across the full LVEF spectrum, including HFpEF. This provided robust evidence where previous trials of ACE inhibitors, ARBs, and MRAs in HFpEF had been neutral or inconsistent. SGLT2 inhibitors became the first drug class to show clear benefit in HFpEF.",
+      "section": "Section 3"
+    },
+    {
+      "id": "E010",
+      "type": "explanatory",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "Why is early initiation of all four pillars of HFrEF treatment recommended before discharge?",
+      "answer": "Early initiation is recommended because: (1) in-hospital initiation has been shown to improve adherence and long-term outcomes, (2) HF hospitalization represents a high-risk period where treatment optimization has the greatest potential impact, (3) treatment inertia is common after discharge - many patients never reach target doses if not started early, and (4) each of the four drug classes has independent mechanisms of benefit that are complementary.",
+      "section": "Section 3"
+    },
+    {
+      "id": "E011",
+      "type": "explanatory",
+      "guideline": "ESC Hypertension 2024",
+      "question": "Why do the 2024 guidelines recommend starting with two-drug combination therapy instead of monotherapy?",
+      "answer": "Starting with single-pill combination (SPC) therapy is recommended because: (1) monotherapy achieves target BP in only 20-30% of patients, meaning most patients will need dose escalation and additional drugs anyway, (2) combining two drugs at lower doses produces greater BP reduction than increasing a single drug to maximum dose, with fewer side effects, (3) SPCs improve adherence by reducing pill burden, and (4) faster BP control reduces the period of uncontrolled hypertension exposure.",
+      "section": "Section 8"
+    },
+    {
+      "id": "E012",
+      "type": "explanatory",
+      "guideline": "ESC Hypertension 2024",
+      "question": "Why is out-of-office blood pressure measurement essential for diagnosis?",
+      "answer": "Out-of-office BP measurement is essential because office BP can overestimate (white-coat hypertension, prevalence 15-30%) or underestimate (masked hypertension, prevalence 10-15%) true BP levels. ABPM and HBPM provide multiple measurements in the patient's usual environment, capture the diurnal BP pattern, predict cardiovascular outcomes better than office BP, and identify non-dipping patterns that carry additional risk.",
+      "section": "Section 7"
+    },
+    {
+      "id": "E013",
+      "type": "explanatory",
+      "guideline": "ESC Hypertension 2024",
+      "question": "Why was the blood pressure target lowered to 120-129 mmHg systolic?",
+      "answer": "The target was lowered based on evidence from the SPRINT trial and subsequent meta-analyses showing that more intensive BP lowering (targeting <120 mmHg) significantly reduces cardiovascular events, heart failure, and death compared with standard treatment (targeting <140 mmHg). The 120-129 mmHg range balances maximum cardiovascular protection with the need to avoid excessive hypotension and adverse effects, particularly in older patients.",
+      "section": "Section 8"
+    },
+    {
+      "id": "E014",
+      "type": "explanatory",
+      "guideline": "ESC ACS 2023",
+      "question": "Why is triple antithrombotic therapy limited to one week in ACS patients requiring anticoagulation?",
+      "answer": "Triple therapy (OAC + aspirin + P2Y12 inhibitor) significantly increases bleeding risk. Trials (WOEST, PIONEER AF-PCI, RE-DUAL PCI, AUGUSTUS, ENTRUST-AF PCI) consistently showed that reducing triple therapy duration minimizes major bleeding events without significantly increasing ischaemic events. One week covers the highest-risk periprocedural period, after which dual therapy (OAC + P2Y12 inhibitor) provides adequate protection with a better bleeding profile.",
+      "section": "Section 6.5"
+    },
+    {
+      "id": "E015",
+      "type": "explanatory",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "Why is weight loss particularly emphasized in the AF-CARE comorbidity management?",
+      "answer": "Obesity is both a risk factor for developing AF and a contributor to AF progression. The LEGACY trial demonstrated that sustained weight loss of ≥10% was associated with a 6-fold increase in AF-free survival compared with less weight loss. Weight loss reduces atrial stretch, decreases pericardial fat (which promotes atrial inflammation and fibrosis), improves obstructive sleep apnoea (another AF driver), and enhances the effectiveness of rhythm control strategies including catheter ablation.",
+      "section": "Section 5"
+    },
+    {
+      "id": "E016",
+      "type": "explanatory",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "Why is FFR/iFR important before coronary revascularization?",
+      "answer": "Angiographic assessment alone overestimates the functional significance of coronary stenoses - many lesions that appear severe on angiography are not haemodynamically significant. FFR/iFR provides objective measurement of whether a stenosis actually reduces blood flow to the myocardium. The FAME and FAME 2 trials showed that FFR-guided revascularization improves outcomes compared with angiography-guided PCI by avoiding unnecessary stenting of non-significant lesions while ensuring truly ischaemia-causing lesions are treated.",
+      "section": "Section 4.2"
+    },
+    {
+      "id": "E017",
+      "type": "explanatory",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "Why is the distinction between HFrEF, HFmrEF, and HFpEF clinically important?",
+      "answer": "The LVEF-based classification is clinically important because the evidence base for pharmacological treatment differs substantially: HFrEF has the strongest evidence for all four pillars (ARNI, beta-blockers, MRAs, SGLT2i), HFmrEF has emerging evidence supporting similar treatments, and HFpEF historically had no proven pharmacotherapy until SGLT2 inhibitors. The classification guides which treatments to prioritize, though the 2023 update narrowed this gap by extending SGLT2i recommendations across the spectrum.",
+      "section": "Table 3, Section 3"
+    },
+    {
+      "id": "E018",
+      "type": "explanatory",
+      "guideline": "ESC Hypertension 2024",
+      "question": "Why is primary aldosteronism now considered more common than previously thought?",
+      "answer": "Traditional screening relied on spontaneous hypokalaemia, which is present in only a minority of cases. Modern screening using the aldosterone-to-renin ratio in all patients with resistant hypertension, hypokalaemia, incidentalomas, or early-onset hypertension reveals prevalence rates of 5-15% among hypertensive patients, making primary aldosteronism the most common cause of secondary hypertension. Early identification is important because targeted treatment (surgery or mineralocorticoid antagonists) achieves better BP control and reduces cardiovascular risk.",
+      "section": "Section 7.4"
+    },
+    {
+      "id": "E019",
+      "type": "explanatory",
+      "guideline": "ESC ACS 2023",
+      "question": "Why is cardiac rehabilitation recommended after ACS?",
+      "answer": "Cardiac rehabilitation is recommended because it combines structured exercise training, risk factor education, psychosocial support, and medication optimization into a comprehensive secondary prevention programme. Meta-analyses show it reduces cardiovascular mortality by 20-30%, reduces hospital readmissions, improves quality of life and exercise capacity, and enhances adherence to evidence-based medications and lifestyle changes.",
+      "section": "Section 14"
+    },
+    {
+      "id": "E020",
+      "type": "explanatory",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "Why is lenient rate control (target <110 bpm) preferred as the initial strategy?",
+      "answer": "The RACE II trial demonstrated that lenient rate control (target resting heart rate <110 bpm) was non-inferior to strict rate control (<80 bpm) for a composite of cardiovascular outcomes, while being easier to achieve and requiring fewer medications with fewer side effects. This simplified approach reduces the need for drug dose escalation and frequent monitoring, improving patient quality of life without compromising safety.",
+      "section": "Section 8"
+    },
+    {
+      "id": "E021",
+      "type": "explanatory",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "Why does the 2024 guideline emphasize risk factor-weighted clinical likelihood over pre-test probability?",
+      "answer": "The traditional pre-test probability models for obstructive CAD (based mainly on age, sex, and symptom type) have been shown to significantly overestimate the probability of CAD in contemporary populations, where the prevalence of obstructive disease has declined due to better primary prevention. The RF-CL model incorporates cardiovascular risk factors (smoking, diabetes, dyslipidaemia, hypertension, family history) to provide a more accurate estimation, reducing unnecessary invasive testing.",
+      "section": "Section 3.2.1"
+    },
+    {
+      "id": "E022",
+      "type": "explanatory",
+      "guideline": "ESC Hypertension 2024",
+      "question": "Why is spironolactone the preferred fourth-line drug for resistant hypertension?",
+      "answer": "Spironolactone is preferred because the PATHWAY-2 trial demonstrated its superiority over bisoprolol, doxazosin, and placebo in reducing BP in patients with resistant hypertension. The rationale is that many patients with resistant hypertension have a component of excess aldosterone activity (even without frank primary aldosteronism), and spironolactone directly counteracts this. Its addition typically produces a substantial BP reduction of 8-10 mmHg systolic.",
+      "section": "Section 9"
+    },
+    {
+      "id": "E023",
+      "type": "explanatory",
+      "guideline": "ESC ACS 2023",
+      "question": "Why is complete revascularization now recommended in stable STEMI patients with multivessel disease?",
+      "answer": "Historically, only the culprit lesion was treated during primary PCI. However, trials (PRAMI, CvLPRIT, DANAMI-3-PRIMULTI, COMPLETE) demonstrated that treating non-culprit lesions (either during the index procedure or staged) significantly reduces the composite of cardiovascular death and MI compared with culprit-only PCI. The COMPLETE trial, the largest, showed a 32% relative risk reduction in the composite endpoint, establishing complete revascularization as the standard of care.",
+      "section": "Section 5.2.1"
+    },
+    {
+      "id": "E024",
+      "type": "explanatory",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "Why are SGLT2 inhibitors beneficial in heart failure even in non-diabetic patients?",
+      "answer": "SGLT2 inhibitors work through multiple mechanisms beyond glucose lowering: they promote natriuresis and osmotic diuresis (reducing preload), improve cardiac energetics by shifting myocardial fuel utilization toward ketone bodies, reduce inflammation and oxidative stress, improve endothelial function, reduce cardiac fibrosis, and enhance autophagy. These pleiotropic effects explain why the benefit is independent of diabetes status and occurs across the full LVEF spectrum.",
+      "section": "Section 3"
+    },
+    {
+      "id": "E025",
+      "type": "explanatory",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "Why is early rhythm control being increasingly recommended for AF?",
+      "answer": "The EAST-AFNET 4 trial demonstrated that early rhythm control (within 12 months of AF diagnosis) reduced the composite of cardiovascular death, stroke, and hospitalization for heart failure or ACS by 21% compared with usual care. Early intervention may prevent atrial remodelling (electrical, structural, and contractile) that makes AF progressively harder to treat. This supports a paradigm shift from 'rate control first' to considering early rhythm control, especially in younger patients with symptomatic AF.",
+      "section": "Section 8.5"
+    },
+    {
+      "id": "E026",
+      "type": "explanatory",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "Why is CCTA gaining prominence as the preferred initial test for CCS?",
+      "answer": "CCTA provides direct anatomical visualization of coronary arteries non-invasively, with high sensitivity (>95%) and excellent negative predictive value (>99%) to rule out obstructive CAD. The SCOT-HEART and PROMISE trials showed that CCTA-guided management leads to more appropriate use of preventive therapies and invasive procedures. Additionally, CCTA detects non-obstructive plaque, enabling earlier risk stratification and intensification of medical therapy before events occur.",
+      "section": "Section 3.2"
+    },
+    {
+      "id": "E027",
+      "type": "explanatory",
+      "guideline": "ESC Hypertension 2024",
+      "question": "Why is drug adherence assessment critical in managing hypertension?",
+      "answer": "Non-adherence to antihypertensive medication is the most common cause of apparent treatment-resistant hypertension, affecting 25-50% of patients. Before escalating therapy or investigating secondary causes, non-adherence must be excluded. Methods include directly observed therapy, urine/blood drug level testing, and medication event monitoring. The emphasis on single-pill combinations is partly to improve adherence by reducing pill burden.",
+      "section": "Section 7.4.2"
+    },
+    {
+      "id": "E028",
+      "type": "explanatory",
+      "guideline": "ESC ACS 2023",
+      "question": "Why is morphine use being reconsidered in ACS management?",
+      "answer": "While morphine effectively relieves pain and anxiety, it delays gastric emptying, which can slow the absorption and reduce the antiplatelet effect of oral P2Y12 inhibitors (particularly ticagrelor and clopidogrel). This pharmacokinetic interaction may result in a vulnerable window of inadequate platelet inhibition during the critical first hours after ACS. The guidelines recommend morphine only when non-opioid analgesics are insufficient, and suggest considering cangrelor or IV P2Y12 inhibitor formulations when morphine is given.",
+      "section": "Section 4.2.2.3"
+    },
+    {
+      "id": "C001",
+      "type": "comparative",
+      "guideline": "ESC ACS 2023 vs ESC Chronic Coronary Syndromes 2024",
+      "question": "How does the antithrombotic strategy differ between ACS and CCS patients?",
+      "answer": "ACS patients receive dual antiplatelet therapy (aspirin + prasugrel or ticagrelor) for 12 months to address the acute thrombotic risk from plaque rupture. CCS patients receive single antiplatelet therapy (aspirin alone) as the default long-term strategy, since the acute thrombotic risk has resolved. The intensity and duration of antithrombotic therapy reflects the different pathophysiological states: active atherothrombosis in ACS versus stable atherosclerotic plaque in CCS.",
+      "section": "ACS Section 6, CCS Section 4.3"
+    },
+    {
+      "id": "C002",
+      "type": "comparative",
+      "guideline": "ESC ACS 2023 vs ESC Chronic Coronary Syndromes 2024",
+      "question": "How do the indications for coronary revascularization differ between ACS and CCS?",
+      "answer": "In ACS, revascularization is driven by urgency: STEMI requires immediate primary PCI (<120 min), and high-risk NSTE-ACS requires early invasive strategy (<24 hours). The goal is to restore flow to ischaemic myocardium. In CCS, revascularization is elective and guided by both symptoms and prognosis: it is indicated when optimal medical therapy fails to control symptoms, or for specific prognostic indications (left main, proximal LAD, multi-vessel disease with reduced LVEF). FFR/iFR-guided assessment is mandatory in CCS but optional in ACS.",
+      "section": "ACS Section 5, CCS Section 4.2"
+    },
+    {
+      "id": "C003",
+      "type": "comparative",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "What are the differences between rate control and rhythm control strategies for AF?",
+      "answer": "Rate control aims to manage ventricular rate without restoring sinus rhythm, using beta-blockers, calcium channel blockers, or digoxin, with a lenient target of <110 bpm. Rhythm control aims to restore and maintain sinus rhythm through antiarrhythmic drugs or catheter ablation. Rate control is simpler and has fewer drug side effects. Rhythm control, especially when initiated early (EAST-AFNET 4), may improve cardiovascular outcomes. The choice depends on symptom burden, AF duration, left atrial size, patient age, comorbidities, and patient preference.",
+      "section": "Section 8"
+    },
+    {
+      "id": "C004",
+      "type": "comparative",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "How does anticoagulation management differ between valvular and non-valvular AF?",
+      "answer": "Non-valvular AF patients can receive either DOACs (preferred) or VKAs for stroke prevention. Valvular AF (mechanical prosthetic heart valves or moderate-to-severe mitral stenosis) mandates VKA therapy - DOACs are contraindicated in these patients. The RE-ALIGN trial showed excess thrombotic and bleeding events with dabigatran in mechanical valve patients. All other valve conditions (including bioprosthetic valves and post-valve repair) can be managed with DOACs.",
+      "section": "Section 6"
+    },
+    {
+      "id": "C005",
+      "type": "comparative",
+      "guideline": "ESC Hypertension 2024",
+      "question": "How do ABPM and HBPM compare for out-of-office blood pressure measurement?",
+      "answer": "ABPM provides 24-hour continuous measurement (typically every 15-30 minutes), captures nocturnal BP and dipping patterns, offers the strongest prognostic value, and is considered the gold standard but requires a single clinic visit with the device. HBPM involves self-measurement over 3-7 days (morning and evening), is more accessible and repeatable, enables long-term monitoring, and supports patient engagement. Both are superior to office BP alone. ABPM is preferred for initial diagnosis; HBPM is preferred for long-term follow-up and treatment monitoring.",
+      "section": "Section 7"
+    },
+    {
+      "id": "C006",
+      "type": "comparative",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "How does the pharmacological treatment approach differ between HFrEF, HFmrEF, and HFpEF?",
+      "answer": "HFrEF has the most robust evidence: all four pillars (ARNI/ACEi, beta-blockers, MRAs, SGLT2i) are Class I recommendations. HFmrEF has weaker evidence: the 2023 update upgraded SGLT2i to Class I but other HFrEF medications remain Class IIb (based on subgroup analyses). HFpEF has the least evidence: SGLT2i received a new Class I recommendation based on EMPEROR-Preserved and DELIVER trials, but no other drug class has demonstrated consistent benefit in dedicated HFpEF trials. Diuretics for congestion relief are common across all categories.",
+      "section": "Section 3, Recommendation Tables 1-2"
+    },
+    {
+      "id": "C007",
+      "type": "comparative",
+      "guideline": "ESC ACS 2023",
+      "question": "How do prasugrel and ticagrelor compare as P2Y12 inhibitors in ACS?",
+      "answer": "Both are more potent than clopidogrel. Prasugrel is a prodrug requiring only one metabolic activation step (faster and more consistent onset), while ticagrelor is a direct-acting reversible inhibitor. The ISAR-REACT 5 trial showed prasugrel was associated with fewer ischaemic events than ticagrelor in ACS-PCI patients, making prasugrel the preferred choice. However, prasugrel is contraindicated with prior stroke/TIA and requires dose reduction in elderly/low-weight patients, whereas ticagrelor has no such contraindications. Ticagrelor can cause dyspnoea as a side effect.",
+      "section": "Section 6.1"
+    },
+    {
+      "id": "C008",
+      "type": "comparative",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "How do PCI and CABG compare for revascularization in CCS?",
+      "answer": "PCI is less invasive, has shorter recovery, and is preferred for single or two-vessel disease. CABG provides more complete and durable revascularization, and is preferred for left main disease, complex three-vessel disease (high SYNTAX score), or when diabetes is present (FREEDOM trial). CABG offers a mortality benefit over PCI in patients with complex multi-vessel disease and diabetes. The Heart Team approach is recommended for shared decision-making in complex cases.",
+      "section": "Section 4.2"
+    },
+    {
+      "id": "C009",
+      "type": "comparative",
+      "guideline": "ESC Hypertension 2024",
+      "question": "How do ACE inhibitors and ARBs compare for hypertension treatment?",
+      "answer": "Both target the renin-angiotensin system and have similar efficacy for BP reduction and cardiovascular protection. ACE inhibitors inhibit angiotensin-converting enzyme (also affecting bradykinin), while ARBs block the angiotensin II type 1 receptor directly. The main practical difference is tolerability: ACE inhibitors cause dry cough in 5-20% of patients (via bradykinin accumulation) and rarely angioedema, while ARBs have very low rates of both. They should not be combined (dual RAAS blockade increases adverse events). The choice is often based on tolerability.",
+      "section": "Section 8"
+    },
+    {
+      "id": "C010",
+      "type": "comparative",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "How do catheter ablation and antiarrhythmic drugs compare for rhythm control in AF?",
+      "answer": "Catheter ablation (predominantly pulmonary vein isolation) provides superior rhythm control efficacy compared with antiarrhythmic drugs, with AF-free rates of 60-80% after a single procedure versus 30-50% with drug therapy at 12 months. Ablation avoids long-term drug side effects (proarrhythmia, thyroid/liver toxicity with amiodarone, negative inotropy with flecainide). However, ablation carries procedural risks (cardiac tamponade, vascular complications, pulmonary vein stenosis, oesophageal injury), requires specialized centres, and may need repeat procedures. The CABANA and CASTLE-AF trials support ablation, particularly in patients with heart failure.",
+      "section": "Section 8.5"
+    },
+    {
+      "id": "C011",
+      "type": "comparative",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "How do CCTA and functional imaging tests compare for diagnosing CCS?",
+      "answer": "CCTA is an anatomical test that directly visualizes coronary arteries, offering high sensitivity (>95%) and excellent negative predictive value (>99%) for ruling out obstructive CAD. It also detects non-obstructive plaque. Functional tests (stress echo, CMR, SPECT, PET) detect ischaemia indirectly through wall motion abnormalities or perfusion deficits. Functional tests have higher specificity but lower sensitivity than CCTA. CCTA is preferred as the initial test for low-to-moderate likelihood patients; functional imaging is preferred when ischaemia documentation is needed to guide revascularization.",
+      "section": "Section 3.2"
+    },
+    {
+      "id": "C012",
+      "type": "comparative",
+      "guideline": "ESC Hypertension 2024 vs ESC ACS 2023",
+      "question": "How do the blood pressure targets differ for primary prevention (hypertension) versus secondary prevention (post-ACS)?",
+      "answer": "For primary prevention in hypertension, the 2024 ESC target is systolic BP 120-129 mmHg for patients aged 18-79 years. For secondary prevention after ACS, the 2023 guidelines recommend <130 mmHg systolic but not below 120 mmHg. The difference reflects the J-curve concern in post-ACS patients: excessively low diastolic BP may impair coronary perfusion in patients with fixed coronary stenoses, potentially increasing ischaemic risk. Primary prevention patients without coronary disease do not have this limitation.",
+      "section": "HTN Section 8, ACS Section 13"
+    },
+    {
+      "id": "C013",
+      "type": "comparative",
+      "guideline": "ESC Atrial Fibrillation 2024 vs ESC Hypertension 2024",
+      "question": "How is hypertension management different in patients with versus without atrial fibrillation?",
+      "answer": "In patients with AF, hypertension management follows the same general principles but with additional considerations: (1) ACE inhibitors/ARBs may have modest antiarrhythmic properties and are preferred, (2) non-dihydropyridine calcium channel blockers (diltiazem, verapamil) serve a dual purpose - BP control and AF rate control, (3) the bleeding risk from anticoagulation increases if BP is poorly controlled, making BP optimization even more critical, and (4) uncontrolled hypertension promotes atrial remodelling and AF progression. The AF guidelines emphasize hypertension as the most prevalent modifiable risk factor for AF under the C component of AF-CARE.",
+      "section": "AF Section 5.1, HTN Section 10"
+    },
+    {
+      "id": "C014",
+      "type": "comparative",
+      "guideline": "ESC Heart Failure 2023 vs ESC Chronic Coronary Syndromes 2024",
+      "question": "How does the management of patients with both heart failure and coronary artery disease differ from isolated CAD?",
+      "answer": "Patients with both HF and CAD require a modified approach: (1) beta-blockers must be those with HF evidence (bisoprolol, carvedilol, metoprolol succinate, nebivolol), not just any beta-blocker, (2) calcium channel blockers (especially verapamil and diltiazem) are contraindicated in HFrEF, limiting anti-anginal options, (3) ARNI replaces ACE inhibitor for the HF component, (4) revascularization decisions are more complex - the REVIVED-BCIS2 trial showed PCI did not improve outcomes over optimal medical therapy in ischaemic HFrEF patients with viability, while CABG may benefit those with severe multi-vessel disease (STICH trial), and (5) both SGLT2 inhibitors and MRAs serve dual purposes (HF treatment + cardiovascular protection).",
+      "section": "HF Section 3, CCS Section 4"
+    },
+    {
+      "id": "C015",
+      "type": "comparative",
+      "guideline": "ESC ACS 2023",
+      "question": "How does the management of STEMI differ from NSTE-ACS?",
+      "answer": "STEMI management is characterized by urgency: immediate reperfusion therapy (primary PCI <120 min or fibrinolysis if PCI not available) is the top priority. NSTE-ACS management is risk-stratified: immediate invasive (<2h) for very high risk, early invasive (<24h) for high risk, or selective invasive for lower risk. Antithrombotic preloading differs: prasugrel is given at angiography for STEMI but may be given earlier in NSTE-ACS. The unifying principle is that both are managed with the same secondary prevention strategies after the acute phase.",
+      "section": "Section 5"
+    },
+    {
+      "id": "C016",
+      "type": "comparative",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "How do the four DOACs compare for stroke prevention in AF?",
+      "answer": "All four DOACs (apixaban, dabigatran, edoxaban, rivaroxaban) are recommended over warfarin. Apixaban (ARISTOTLE) showed the lowest rates of major bleeding and intracranial haemorrhage. Dabigatran 150mg (RE-LY) showed superior stroke reduction but with higher GI bleeding. Rivaroxaban (ROCKET-AF) is once-daily dosing (convenience) but has higher GI bleeding. Edoxaban (ENGAGE AF-TIMI 48) showed good efficacy with lower bleeding. No head-to-head trials exist between DOACs. Choice depends on renal function (dabigatran most dependent), dosing preference, bleeding risk profile, and cost.",
+      "section": "Section 6"
+    },
+    {
+      "id": "C017",
+      "type": "comparative",
+      "guideline": "ESC Hypertension 2024",
+      "question": "How does hypertension management differ between younger adults and patients over 80 years?",
+      "answer": "For adults aged 18-79, the systolic BP target is 120-129 mmHg, initial combination therapy is recommended, and aggressive cardiovascular risk reduction is prioritized. For patients ≥80 years, the systolic target is relaxed to <140 mmHg (but individualized), treatment initiation may begin with monotherapy, and the risk of falls, orthostatic hypotension, cognitive decline, and polypharmacy must be carefully weighed against the cardiovascular benefit of tighter BP control. Drug metabolism changes in older patients also affect choice and dosing.",
+      "section": "Section 10"
+    },
+    {
+      "id": "C018",
+      "type": "comparative",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "How do beta-blockers and calcium channel blockers compare as first-line anti-anginal therapy?",
+      "answer": "Both are Class I first-line recommendations. Beta-blockers reduce heart rate, contractility, and myocardial oxygen demand; they also have prognostic benefit post-MI and in HFrEF. Calcium channel blockers (dihydropyridines like amlodipine and non-dihydropyridines like diltiazem/verapamil) vasodilate coronary arteries and reduce afterload. CCBs are preferred in vasospastic angina and when beta-blockers are contraindicated (asthma, severe bradycardia). Non-dihydropyridine CCBs should not be combined with beta-blockers due to risk of severe bradycardia. The combination of a beta-blocker with a dihydropyridine CCB is effective when monotherapy is insufficient.",
+      "section": "Section 4.1"
+    },
+    {
+      "id": "C019",
+      "type": "comparative",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "How do ACE inhibitors and ARNIs compare for HFrEF treatment?",
+      "answer": "Both inhibit the renin-angiotensin system, but ARNI (sacubitril/valsartan) additionally inhibits neprilysin, enhancing natriuretic peptide levels. The PARADIGM-HF trial showed ARNI reduced cardiovascular death and HF hospitalization by 20% compared with enalapril. ARNI is now preferred over ACE inhibitors for HFrEF. However, ACE inhibitors remain a valid alternative if ARNI is not available or tolerated. A washout period of 36 hours is required when switching from ACEi to ARNI to avoid angioedema risk.",
+      "section": "2021 ESC HF Guidelines, Section 3"
+    },
+    {
+      "id": "C020",
+      "type": "comparative",
+      "guideline": "ESC Hypertension 2024",
+      "question": "How do thiazide diuretics and thiazide-like diuretics compare for hypertension?",
+      "answer": "Thiazide-like diuretics (chlorthalidone, indapamide) are preferred over conventional thiazides (hydrochlorothiazide) because they have longer duration of action (chlorthalidone half-life 40-60h vs hydrochlorothiazide 6-15h), provide 24-hour BP control with once-daily dosing, and have stronger evidence for cardiovascular event reduction. Chlorthalidone has approximately 1.5-2 times the potency of hydrochlorothiazide. However, they may cause more hyponatraemia and hypokalaemia, requiring electrolyte monitoring.",
+      "section": "Section 8"
+    },
+    {
+      "id": "C021",
+      "type": "comparative",
+      "guideline": "ESC ACS 2023 vs ESC Atrial Fibrillation 2024",
+      "question": "How does the management of patients presenting with both ACS and new-onset AF differ from isolated ACS?",
+      "answer": "Patients with both ACS and AF face the challenge of balancing anticoagulation for stroke prevention with antiplatelet therapy for stent protection. The key difference is the addition of OAC (preferably DOAC) to the antithrombotic regimen. Triple therapy (OAC + aspirin + clopidogrel) is used for up to 1 week post-PCI, then dual therapy (OAC + clopidogrel) for up to 12 months, then OAC alone. Prasugrel and ticagrelor are not recommended in combination with OAC due to excessive bleeding risk - clopidogrel is the preferred P2Y12 inhibitor in this setting.",
+      "section": "ACS Section 6.5, AF Section 6"
+    },
+    {
+      "id": "C022",
+      "type": "comparative",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "How do dapagliflozin and empagliflozin compare for heart failure treatment?",
+      "answer": "Both dapagliflozin and empagliflozin are recommended SGLT2 inhibitors for HF across the LVEF spectrum. Dapagliflozin was studied in DAPA-HF (HFrEF) and DELIVER (HFpEF). Empagliflozin was studied in EMPEROR-Reduced (HFrEF) and EMPEROR-Preserved (HFpEF). Both showed consistent reductions in HF hospitalization and cardiovascular death. No head-to-head trial exists between them. The guidelines do not express a preference between the two - they are considered interchangeable for HF management. The choice may depend on availability, cost, and diabetic management considerations.",
+      "section": "Section 3"
+    },
+    {
+      "id": "E029",
+      "type": "explanatory",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "Why is the Heart Team approach recommended for complex revascularization decisions?",
+      "answer": "The Heart Team (comprising an interventional cardiologist, cardiac surgeon, and clinical cardiologist) is recommended because complex multi-vessel disease requires balancing anatomical complexity (SYNTAX score), patient comorbidities, surgical risk, and patient preferences. No single specialist has full expertise across all factors. Randomized trials show that Heart Team decisions lead to more appropriate treatment selection and better outcomes than unilateral decisions by either PCI operators or surgeons.",
+      "section": "Section 4.2"
+    },
+    {
+      "id": "E030",
+      "type": "explanatory",
+      "guideline": "ESC Hypertension 2024",
+      "question": "Why is the new BP categorization important compared to the previous system?",
+      "answer": "The previous classification (optimal, normal, high-normal, grade 1-3 hypertension) created a false impression of sharp boundaries between categories. The new three-tier system (non-elevated, elevated, hypertension) better reflects the continuous nature of BP-related risk and simplifies clinical decision-making. The 'elevated' category triggers risk assessment and may lead to drug treatment based on cardiovascular risk, addressing the previous gap where patients with borderline readings were often untreated despite significant risk.",
+      "section": "Section 5"
+    },
+    {
+      "id": "E031",
+      "type": "explanatory",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "Why is obstructive sleep apnoea screening recommended in AF patients?",
+      "answer": "Obstructive sleep apnoea (OSA) is present in 25-60% of AF patients and contributes to AF initiation and recurrence through multiple mechanisms: intermittent hypoxia causes oxidative stress and inflammation, intrathoracic pressure swings alter atrial hemodynamics, sympathetic activation triggers AF episodes, and chronic untreated OSA promotes structural atrial remodelling. Treatment of OSA with CPAP has been associated with reduced AF recurrence after cardioversion and catheter ablation, making screening and treatment integral to the C component of AF-CARE.",
+      "section": "Section 5"
+    },
+    {
+      "id": "E032",
+      "type": "explanatory",
+      "guideline": "ESC ACS 2023",
+      "question": "Why is radial artery access preferred over femoral access for coronary angiography in ACS?",
+      "answer": "Radial access is preferred because the MATRIX trial and subsequent meta-analyses demonstrated that it significantly reduces major bleeding, vascular complications, and mortality compared with femoral access in ACS patients. The radial artery is superficial and easily compressible, enabling early mobilization and shorter hospital stays. The bleeding reduction is particularly important in ACS patients receiving potent antiplatelet and anticoagulant therapy, where vascular access site bleeding is a major contributor to adverse outcomes.",
+      "section": "Section 5.2"
+    },
+    {
+      "id": "E033",
+      "type": "explanatory",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "Why is low-dose colchicine being considered for cardiovascular prevention in CCS?",
+      "answer": "Atherosclerosis is now recognized as a chronic inflammatory disease, not just a lipid-driven process. The residual inflammatory risk persists even with optimal statin therapy. Colchicine inhibits the NLRP3 inflammasome and reduces interleukin-1β and CRP levels. The LoDoCo2 and COLCOT trials demonstrated that low-dose colchicine (0.5mg daily) reduces recurrent cardiovascular events by approximately 30% in CCS and post-MI patients. This anti-inflammatory approach targets a mechanism complementary to lipid-lowering and antithrombotic therapy.",
+      "section": "Section 4.5"
+    },
+    {
+      "id": "E034",
+      "type": "explanatory",
+      "guideline": "ESC Hypertension 2024",
+      "question": "Why do the guidelines recommend against using beta-blockers as first-line antihypertensive therapy?",
+      "answer": "Beta-blockers are no longer considered first-line antihypertensive agents because meta-analyses (particularly the LIFE trial comparing losartan vs atenolol) showed that beta-blockers, especially atenolol, provide less protection against stroke compared with other antihypertensive classes despite similar BP reduction. They also have less favorable metabolic effects (weight gain, insulin resistance, masking of hypoglycaemia). However, beta-blockers remain indicated when there is a compelling indication such as heart failure, angina, post-MI, or heart rate control in atrial fibrillation.",
+      "section": "Section 8"
+    },
+    {
+      "id": "E035",
+      "type": "explanatory",
+      "guideline": "ESC Heart Failure 2023",
+      "question": "Why was finerenone included in the 2023 heart failure focused update?",
+      "answer": "Finerenone is a non-steroidal selective mineralocorticoid receptor antagonist that differs from spironolactone and eplerenone in its binding properties, resulting in greater selectivity and fewer off-target effects (particularly less hyperkalaemia and gynaecomastia). The FIDELIO-DKD and FIGARO-DKD trials demonstrated that finerenone reduces cardiovascular events and HF hospitalization in patients with type 2 diabetes and chronic kidney disease. Its inclusion reflects the growing evidence that addressing cardiorenal syndrome requires targeted therapies that protect both the heart and kidney.",
+      "section": "Recommendation Table 4"
+    },
+    {
+      "id": "E036",
+      "type": "explanatory",
+      "guideline": "ESC Atrial Fibrillation 2024",
+      "question": "Why should amiodarone be reserved as a last-resort antiarrhythmic drug?",
+      "answer": "Amiodarone is the most effective antiarrhythmic drug for maintaining sinus rhythm (efficacy 50-65% at 12 months), but its cumulative toxicity profile limits long-term use: pulmonary fibrosis (1-17%), thyroid dysfunction (both hypo and hyperthyroidism, 5-25%), hepatotoxicity, corneal microdeposits, peripheral neuropathy, and photosensitivity. These organ toxicities are related to its iodine content and extremely long half-life (40-55 days). Therefore, amiodarone is reserved for patients with heart failure or when other antiarrhythmics have failed or are contraindicated, and requires regular thyroid, liver, and pulmonary function monitoring.",
+      "section": "Section 8.5"
+    },
+    {
+      "id": "E037",
+      "type": "explanatory",
+      "guideline": "ESC Chronic Coronary Syndromes 2024",
+      "question": "Why is the management of ANOCA/INOCA now given a dedicated section in the 2024 guidelines?",
+      "answer": "Up to 40% of patients undergoing coronary angiography for angina have non-obstructive coronary arteries. Previously, these patients were often dismissed as having non-cardiac chest pain, leading to persistent symptoms, reduced quality of life, and repeated healthcare utilization. Growing evidence shows that coronary microvascular dysfunction and vasospasm are identifiable and treatable causes. Invasive coronary function testing with acetylcholine and adenosine can identify specific endotypes (vasospastic, microvascular, or mixed), enabling targeted therapy that significantly improves outcomes and quality of life.",
+      "section": "Section 3.3"
+    },
+    {
+      "id": "E038",
+      "type": "explanatory",
+      "guideline": "ESC Hypertension 2024",
+      "question": "Why is nocturnal blood pressure dipping clinically significant?",
+      "answer": "Normally, BP decreases by 10-20% during sleep (dipping pattern). Non-dipping (BP drop <10%) or reverse dipping (nocturnal BP higher than daytime) are associated with increased cardiovascular risk, including higher rates of stroke, heart failure, and cardiovascular death, even after adjusting for 24-hour BP levels. Non-dipping patterns are more prevalent in patients with secondary hypertension, diabetes, CKD, and obstructive sleep apnoea. ABPM is the only method that can reliably detect non-dipping, which is one reason it is preferred for initial diagnostic evaluation.",
+      "section": "Section 7"
+    }
+  ]
+}
