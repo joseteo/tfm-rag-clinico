@@ -1,0 +1,153 @@
+{
+  "experiment": "Phase 2 - Embedding comparison",
+  "date": "2026-05-18T22:39:55.857082",
+  "chunking": "C2_recursive",
+  "chunk_size": 512,
+  "chunk_overlap": 50,
+  "llm": "gemma3:12b",
+  "llm_server": "192.168.1.22:11434",
+  "total_time_minutes": 106.46337194045385,
+  "e_best": "bge-base-en-v1.5",
+  "configs": [
+    {
+      "config_id": "E1_MiniLM",
+      "config_name": "all-MiniLM-L6-v2",
+      "config_type": "Generalista",
+      "n_chunks": 7023,
+      "n_questions": 150,
+      "n_valid": 150,
+      "n_errors": 0,
+      "model_load_time_s": 4.52712345123291,
+      "index_time_s": 144.14788484573364,
+      "avg_query_time_s": 5.423015821774801,
+      "metrics": {
+        "rouge1_f1": 0.21335449184294125,
+        "rougeL_f1": 0.14820935077610778,
+        "bertscore_f1": 0.8310772331555685
+      },
+      "metrics_factual": {
+        "n": 90,
+        "rouge1_f1": 0.24476519077594133,
+        "rougeL_f1": 0.1773600177998377,
+        "bertscore_f1": 0.8395346422990163
+      },
+      "metrics_explanatory": {
+        "n": 38,
+        "rouge1_f1": 0.1585085878922219,
+        "rougeL_f1": 0.10382046033891121,
+        "bertscore_f1": 0.8232155222641794
+      },
+      "metrics_comparative": {
+        "n": 22,
+        "rouge1_f1": 0.1795900121228199,
+        "rougeL_f1": 0.10562834188873418,
+        "bertscore_f1": 0.810058060017499
+      }
+    },
+    {
+      "config_id": "E2_BGE",
+      "config_name": "bge-base-en-v1.5",
+      "config_type": "Generalista",
+      "n_chunks": 7023,
+      "n_questions": 150,
+      "n_valid": 150,
+      "n_errors": 0,
+      "model_load_time_s": 16.99980878829956,
+      "index_time_s": 1085.7314746379852,
+      "avg_query_time_s": 5.501620966593425,
+      "metrics": {
+        "rouge1_f1": 0.22910520668603274,
+        "rougeL_f1": 0.15951433927517114,
+        "bertscore_f1": 0.835027596950531
+      },
+      "metrics_factual": {
+        "n": 90,
+        "rouge1_f1": 0.26327624407685896,
+        "rougeL_f1": 0.19227648319078305,
+        "bertscore_f1": 0.843149334192276
+      },
+      "metrics_explanatory": {
+        "n": 38,
+        "rouge1_f1": 0.17284787797717616,
+        "rougeL_f1": 0.10761777547005318,
+        "bertscore_f1": 0.8247239432836834
+      },
+      "metrics_comparative": {
+        "n": 22,
+        "rouge1_f1": 0.18648634876613246,
+        "rougeL_f1": 0.11512690619287151,
+        "bertscore_f1": 0.819599528204311
+      }
+    },
+    {
+      "config_id": "E3_PubMedBERT",
+      "config_name": "PubMedBERT",
+      "config_type": "Biomédico",
+      "n_chunks": 7023,
+      "n_questions": 150,
+      "n_valid": 150,
+      "n_errors": 0,
+      "model_load_time_s": 15.521608352661133,
+      "index_time_s": 1067.941959142685,
+      "avg_query_time_s": 3.8593668508529664,
+      "metrics": {
+        "rouge1_f1": 0.12503953757530115,
+        "rougeL_f1": 0.09045064834301832,
+        "bertscore_f1": 0.8095950289567312
+      },
+      "metrics_factual": {
+        "n": 90,
+        "rouge1_f1": 0.12260226748604391,
+        "rougeL_f1": 0.09590104384804332,
+        "bertscore_f1": 0.8095313337114122
+      },
+      "metrics_explanatory": {
+        "n": 38,
+        "rouge1_f1": 0.11382990713606078,
+        "rougeL_f1": 0.07570891936183376,
+        "bertscore_f1": 0.8089191803806707
+      },
+      "metrics_comparative": {
+        "n": 22,
+        "rouge1_f1": 0.1543722768809504,
+        "rougeL_f1": 0.09361656224450755,
+        "bertscore_f1": 0.8110229752280496
+      }
+    },
+    {
+      "config_id": "E4_BioLORD",
+      "config_name": "BioLORD-2023",
+      "config_type": "Biomédico",
+      "n_chunks": 7023,
+      "n_questions": 150,
+      "n_valid": 150,
+      "n_errors": 0,
+      "model_load_time_s": 19.949106216430664,
+      "index_time_s": 715.7068135738373,
+      "avg_query_time_s": 4.94821084022522,
+      "metrics": {
+        "rouge1_f1": 0.19499922827974478,
+        "rougeL_f1": 0.1355303564018254,
+        "bertscore_f1": 0.827226718266805
+      },
+      "metrics_factual": {
+        "n": 90,
+        "rouge1_f1": 0.21695370332192868,
+        "rougeL_f1": 0.1565559924986434,
+        "bertscore_f1": 0.8334838092327118
+      },
+      "metrics_explanatory": {
+        "n": 38,
+        "rouge1_f1": 0.15845089141477747,
+        "rougeL_f1": 0.10452835677072674,
+        "bertscore_f1": 0.8199854289230547
+      },
+      "metrics_comparative": {
+        "n": 22,
+        "rouge1_f1": 0.1683144122375724,
+        "rougeL_f1": 0.1030652990049223,
+        "bertscore_f1": 0.8141372095454823
+      }
+    }
+  ]
+}
