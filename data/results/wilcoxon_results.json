@@ -1,0 +1,181 @@
+{
+  "phase1": {
+    "rouge1_f1": {
+      "C1_vs_C2": {
+        "W": 5097.0,
+        "p": 0.9181419044570791,
+        "p_adjusted": 1.0,
+        "n_nonzero": 143
+      },
+      "C1_vs_C3": {
+        "W": 5464.0,
+        "p": 0.9252685900830159,
+        "p_adjusted": 1.0,
+        "n_nonzero": 148
+      },
+      "C2_vs_C3": {
+        "W": 4878.0,
+        "p": 0.41328197706094694,
+        "p_adjusted": 1.0,
+        "n_nonzero": 145
+      }
+    },
+    "rougeL_f1": {
+      "C1_vs_C2": {
+        "W": 4898.5,
+        "p": 0.5214128679534451,
+        "p_adjusted": 1.0,
+        "n_nonzero": 144
+      },
+      "C1_vs_C3": {
+        "W": 5137.0,
+        "p": 0.47166916226441125,
+        "p_adjusted": 1.0,
+        "n_nonzero": 148
+      },
+      "C2_vs_C3": {
+        "W": 4601.5,
+        "p": 0.17260465472341557,
+        "p_adjusted": 0.5178139641702467,
+        "n_nonzero": 145
+      }
+    },
+    "bertscore_f1": {
+      "C1_vs_C2": {
+        "W": 5296.0,
+        "p": 0.7821415726971248,
+        "p_adjusted": 1.0,
+        "n_nonzero": 147
+      },
+      "C1_vs_C3": {
+        "W": 5125.0,
+        "p": 0.3807680592729865,
+        "p_adjusted": 1.0,
+        "n_nonzero": 149
+      },
+      "C2_vs_C3": {
+        "W": 4763.0,
+        "p": 0.151086814934286,
+        "p_adjusted": 0.453260444802858,
+        "n_nonzero": 148
+      }
+    }
+  },
+  "phase2": {
+    "rouge1_f1": {
+      "E1_MiniLM_vs_E2_BGE": {
+        "W": 4796.0,
+        "p": 0.39778425441045306,
+        "p_adjusted": 1.0,
+        "n_nonzero": 144
+      },
+      "E1_MiniLM_vs_E3_PubMedBERT": {
+        "W": 2610.0,
+        "p": 7.319021971646757e-08,
+        "p_adjusted": 4.391413182988054e-07,
+        "n_nonzero": 146
+      },
+      "E1_MiniLM_vs_E4_BioLORD": {
+        "W": 4388.0,
+        "p": 0.20378061840863537,
+        "p_adjusted": 1.0,
+        "n_nonzero": 141
+      },
+      "E2_BGE_vs_E3_PubMedBERT": {
+        "W": 2556.0,
+        "p": 2.4744120031444432e-08,
+        "p_adjusted": 1.484647201886666e-07,
+        "n_nonzero": 147
+      },
+      "E2_BGE_vs_E4_BioLORD": {
+        "W": 4241.0,
+        "p": 0.050887882432982416,
+        "p_adjusted": 0.3053272945978945,
+        "n_nonzero": 144
+      },
+      "E3_PubMedBERT_vs_E4_BioLORD": {
+        "W": 3079.0,
+        "p": 7.343951118002601e-05,
+        "p_adjusted": 0.0004406370670801561,
+        "n_nonzero": 141
+      }
+    },
+    "rougeL_f1": {
+      "E1_MiniLM_vs_E2_BGE": {
+        "W": 4854.0,
+        "p": 0.4654418869841337,
+        "p_adjusted": 1.0,
+        "n_nonzero": 144
+      },
+      "E1_MiniLM_vs_E3_PubMedBERT": {
+        "W": 2744.0,
+        "p": 3.0331576697709304e-07,
+        "p_adjusted": 1.8198946018625581e-06,
+        "n_nonzero": 146
+      },
+      "E1_MiniLM_vs_E4_BioLORD": {
+        "W": 4270.0,
+        "p": 0.13010058236429928,
+        "p_adjusted": 0.7806034941857957,
+        "n_nonzero": 141
+      },
+      "E2_BGE_vs_E3_PubMedBERT": {
+        "W": 2778.0,
+        "p": 2.6643256098208934e-07,
+        "p_adjusted": 1.598595365892536e-06,
+        "n_nonzero": 147
+      },
+      "E2_BGE_vs_E4_BioLORD": {
+        "W": 4311.5,
+        "p": 0.07001308356829317,
+        "p_adjusted": 0.420078501409759,
+        "n_nonzero": 144
+      },
+      "E3_PubMedBERT_vs_E4_BioLORD": {
+        "W": 3169.0,
+        "p": 0.00015705981951751063,
+        "p_adjusted": 0.0009423589171050638,
+        "n_nonzero": 141
+      }
+    },
+    "bertscore_f1": {
+      "E1_MiniLM_vs_E2_BGE": {
+        "W": 4731.0,
+        "p": 0.17096489002974202,
+        "p_adjusted": 1.0,
+        "n_nonzero": 147
+      },
+      "E1_MiniLM_vs_E3_PubMedBERT": {
+        "W": 2864.0,
+        "p": 1.51558337591285e-07,
+        "p_adjusted": 9.093500255477099e-07,
+        "n_nonzero": 150
+      },
+      "E1_MiniLM_vs_E4_BioLORD": {
+        "W": 4655.0,
+        "p": 0.20828884321951502,
+        "p_adjusted": 1.0,
+        "n_nonzero": 145
+      },
+      "E2_BGE_vs_E3_PubMedBERT": {
+        "W": 2682.0,
+        "p": 2.242984910899492e-08,
+        "p_adjusted": 1.3457909465396952e-07,
+        "n_nonzero": 150
+      },
+      "E2_BGE_vs_E4_BioLORD": {
+        "W": 4390.0,
+        "p": 0.042506593677534,
+        "p_adjusted": 0.255039562065204,
+        "n_nonzero": 147
+      },
+      "E3_PubMedBERT_vs_E4_BioLORD": {
+        "W": 3521.0,
+        "p": 8.994954604968317e-05,
+        "p_adjusted": 0.000539697276298099,
+        "n_nonzero": 149
+      }
+    }
+  },
+  "gen_vs_bio": {}
+}
