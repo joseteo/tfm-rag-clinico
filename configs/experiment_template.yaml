@@ -20,7 +20,7 @@ retrieval:
   k: 4                        # Número de fragmentos a recuperar
 
 generation:
-  model: "gemma4"
+  model: "gemma3:12b-it-q4_K_M"
   temperature: 0.0
   ollama_url: "http://localhost:11434"
 
@@ -30,4 +30,3 @@ evaluation:
     - rouge1
     - rougeL
     - bertscore
-  manual_sample_size: 30       # Muestra para evaluación manual

@@ -91,4 +91,4 @@ Hallazgo principal: los modelos generalistas superan a los biomédicos en +38% R
 
 ## Licencia
 
-Este código se distribuye únicamente como material complementario del TFM. No se otorga licencia de uso comercial.
+MIT
